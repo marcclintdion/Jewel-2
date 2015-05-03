@@ -1,0 +1,8 @@
+The noise somewhere between (0.1 - 1.0) threshold.
+
+Next is Gaussian Blur with a radius of about (0.1 - 0.4) pixels.
+
+Finally Curves is used with the bottom-left point being lifted upwards to about (200 - 220)
+    so that the mask is almost pure white.  Any color that is not white will resonate with 
+	the shader in several places because it is dampening the normals for every non-white
+		pixels.   
